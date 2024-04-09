@@ -1,0 +1,124 @@
+[
+    {
+      "title": "How Meta built the infrastructure for Threads",
+      "subtitle": "On July 5, 2023, Meta launched Threads, the newest product in our family of apps, to an unprecedented success that saw it garner over 100 million sign ups in its first five days.",
+      "link": "https://engineering.fb.com/2023/12/19/core-infra/how-meta-built-the-infrastructure-for-threads/", 
+      "date": "19 December 2023 00:00 UTC",
+      "genre": "software-engineering",
+      "word-count": 1618,
+      "author": "Laine Campbell, Chunqiang (CQ) Tang",
+      "image": "../../images/FB-Engineering-Blog-19-December-2023-Image.png"
+    },
+    {
+      "title": "All Your Memories Are Stored by One Weird, Ancient Molecule",
+      "subtitle": "We actually borrowed our ability to form memories from viruses.",
+      "link": "https://www.inverse.com/article/40113-arc-protein-ancient-mouse-brain-rna-capsid", 
+      "date": "11 January 2018 00:00 UTC",
+      "genre": "science",
+      "word-count": 715,
+      "author": "Peter Hess",
+      "image": "../../images/Memories-In-Ancient-Molecule.png"
+    },
+    {
+      "title": "Kara Swisher on Tech Billionaires: “I Don’t Think They Like People”",
+      "subtitle": "One of the most influential Silicon Valley reporters chronicles the rise of an industry, and moguls like Elon Musk, in “Burn Book.”",
+      "link": "https://www.newyorker.com/podcast/political-scene/kara-swisher-on-tech-billionaires-i-dont-think-they-like-people", 
+      "date": "1 April 2024 00:00 UTC",
+      "genre": "politics",
+      "word-count": 243,
+      "author": "Kara Swisher and David Remnick",
+      "image": "../../images/tech-billionaires.png"
+    },
+    {
+      "title": "The 200 Best Albums of the 1980s",
+      "subtitle": "Kate Bush, N.W.A., Brian Eno, Madonna, Prince, Bruce Springsteen, Sade, Sonic Youth, Janet Jackson, and the other icons who defined a decade",
+      "link": "https://pitchfork.com/features/lists-and-guides/the-200-best-albums-of-the-1980s/", 
+      "date": "10 September 2018 00:00 UTC",
+      "genre": "music",
+      "word-count": 332,
+      "author": "Pitchfork",
+      "image": "../../images/1980s-Albums.png"
+    },
+    {
+      "title": "The 25 Best Indie Pop Albums of the '90s",
+      "subtitle": "While alternative rock raged in the 1990s, the softhearted sound of bands like Heavenly, Tiger Trap, and the Pastels welcomed listeners into their own secret world.",
+      "link": "https://pitchfork.com/features/lists-and-guides/the-200-best-albums-of-the-1980s/", 
+      "date": "27 October 2022 00:00 UTC",
+      "genre": "music",
+      "word-count": 4374,
+      "author": "Pitchfork",
+      "image": "../../images/Best-Indie-Pop-Albums-Header.png"
+    },
+    {
+      "title": "Modern Art and the Esteem Machine",
+      "subtitle": "Picasso was a joke. Then he was a god. How did his art finally take off in America?",
+      "link": "https://www.newyorker.com/magazine/2022/07/04/modern-art-and-the-esteem-machine-hugh-eakin-picassos-war", 
+      "date": "27 June 2022 00:00 UTC",
+      "genre": "arts",
+      "word-count": 4218,
+      "author": "Louis Menand",
+      "image": "../../images/the-esteem-machine.png"
+    },
+    {
+      "title": "The Smell of Doughnuts",
+      "subtitle": "I wandered in and out of bars, looking for someone or something to turn the night into an adventure, but all I found were a few more drinks.",
+      "link": "https://www.newyorker.com/magazine/2020/06/08/the-smell-of-doughnuts", 
+      "date": "1 June 2020 00:00 UTC",
+      "genre": "arts",
+      "word-count": 1145,
+      "author": "Ottessa Moshfegh",
+      "image": "../../images/doughnuts.png"
+    },
+    {
+      "title": "Clubbing Is a Lifeline—and It’s Back",
+      "subtitle": "After the coronavirus pandemic, New Yorkers will not take their dance-club scene for granted again.",
+      "link": "https://www.newyorker.com/magazine/2020/06/08/the-smell-of-doughnuts", 
+      "date": "24 June 2020 00:00 UTC",
+      "genre": "culture",
+      "word-count": 4196,
+      "author": "Emily Witt",
+      "image": "../../images/clubbing.png"
+    },
+    {
+      "title": "The Grocery Store Where Produce Meets Politics",
+      "subtitle": "The legendary Park Slope Food Co-op carries sustainable food, low prices, and New Yorkers’ opinions in bulk.",
+      "link": "https://www.newyorker.com/magazine/2019/11/25/the-grocery-store-where-produce-meets-politics", 
+      "date": "18 November 2019 00:00 UTC",
+      "genre": "culture",
+      "word-count": 7803,
+      "author": "Alexandra Schwartz",
+      "image": "../../images/food-coop.png"
+    },
+    {
+      "title": "Looking for Gold at a Department of Finance Vehicle Auction",
+      "subtitle": "At an impound lot in Gravesend, Brooklyn, bidders know that the car they nab for a song won’t come with a key. But will it have an engine?",
+      "link": "https://www.newyorker.com/magazine/2021/01/25/looking-for-gold-at-a-department-of-finance-vehicle-auction", 
+      "date": "18 January 2021 00:00 UTC",
+      "genre": "culture",
+      "word-count": 1048,
+      "author": "Adam Iscoe",
+      "image": "../../images/gold-finance-department.png"
+    },
+    {
+      "title": "Among the A.I. Doomsayers",
+      "subtitle": "Some people think machine intelligence will transform humanity for the better. Others fear it may destroy us. Who will decide our fate?",
+      "link": "https://www.newyorker.com/magazine/2024/03/18/among-the-ai-doomsayers", 
+      "date": "11 March 2024 00:00 UTC",
+      "genre": "software-engineering",
+      "word-count": 8251,
+      "author": "Andrew Marantz",
+      "image": "../../images/ai.png"
+    },
+    {
+      "title": "When Your Law-School Homework Is Stranger Than Fiction",
+      "subtitle": "RonNell Andersen Jones, a law professor at the University of Utah, can’t update the curriculum for her First Amendment seminar fast enough.",
+      "link": "https://www.newyorker.com/magazine/2021/02/15/when-your-law-school-homework-is-stranger-than-fiction", 
+      "date": "6 February 2021 00:00 UTC",
+      "genre": "politics",
+      "word-count": 827,
+      "author": "Andrew Marantz",
+      "image": "../../images/law-school-homework.png"
+    }
+  ]
+  
+  
