@@ -1,5 +1,5 @@
 import './App.css';
-import { useState } from "react";
+import { useState, useRef } from "react";
 import Checkbox from "@mui/material/Checkbox";
 import FormGroup from '@mui/material/FormGroup';
 import FormControl from '@mui/material/FormControl';
@@ -61,16 +61,19 @@ function App() {
   }
   const [sortState, setSort] = useState();
   const handleSort = (event) => {
+    let sort = event.target.value || null
     setSort(
-      event.target.value
+      sort
     )
   }
+  
 
   const handleReset = () => {
     const resetFilters = Object.fromEntries(
       Object.keys(filterState).map(key => [key, false])
     );
     setFilter(resetFilters);
+    setSort(null);
     setReadList([]);
   }
 
@@ -105,7 +108,7 @@ function App() {
           <Box sx={{display: 'flex', flexDirection: 'row'}}>
             <FormControl>
               <FormLabel> Genre </FormLabel>
-              <FormGroup>
+              <FormGroup sx={{ display: 'flex', flexDirection: 'row'}}>
                 <FormControlLabel label="Lifestyle" control={<Checkbox onChange={handleFilter}  checked={filterState["lifestyle"]} name="lifestyle"/>} />
                 <FormControlLabel label="Software Engineering" control={<Checkbox onChange={handleFilter} checked={filterState["software-engineering"]} name="software-engineering"/>} />
                 <FormControlLabel label="Business" control={<Checkbox onChange={handleFilter}  checked={filterState["business"]} name="business"/>}  />
@@ -114,6 +117,9 @@ function App() {
                 <FormControlLabel label="Arts" control={<Checkbox onChange={handleFilter}  checked={filterState["arts"]} name="arts"/>}  />
                 <FormControlLabel label="Culture" control={<Checkbox onChange={handleFilter}  checked={filterState["culture"]} name="culture"/>}  />
               </FormGroup>
+
+              <Divider orientation="vertical" variant="middle" flexItem />
+
               <FormLabel> Sort </FormLabel>
               <FormGroup>
                 <Select
@@ -123,14 +129,17 @@ function App() {
                   label="sort"
                   onChange={handleSort}
                 >
+                  <MenuItem value={null}>Select</MenuItem>
                   <MenuItem value={"newest"}> Newest </MenuItem>
                   <MenuItem value={"oldest"}> Oldest </MenuItem>
                   <MenuItem value={"shortest"}> Shortest </MenuItem>
                   <MenuItem value={"longest"}> Longest </MenuItem>
                 </Select>
               </FormGroup>
+              <Divider orientation="vertical" variant="middle" flexItem />
               <FormGroup>
-                <FormControlLabel class="ResetButton" label="Reset" control={<Button onClick={handleReset} />} />
+                <FormLabel></FormLabel>
+                <Button class="ResetButton" label="Reset" onClick={handleReset}> Reset </Button>
               </FormGroup>
             </FormControl>
             
